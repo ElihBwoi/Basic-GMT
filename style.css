@@ -126,7 +126,8 @@
 }
   /* HEADER */
   .header{
-    background:var(--dark);
+    background:var(transparent);
+    padding:2rem;
     position:relative;
     position:fixed;
     width:100%;
@@ -208,7 +209,7 @@ transition:.5s ease;
 /* HEADER MOBILE */
 @media screen and (max-width:500px){
   .header__nav{
-    background:rgb(22, 22, 20);
+    background:grey;
     position:absolute;
     top:0rem;
     right:-100rem;
@@ -221,7 +222,7 @@ transition:.5s ease;
     align-items:center;
     transition:.5s ease;
   }
-  }
+  
   .header__nav ul.nav{
 display:flex;
 flex-direction: column;
@@ -256,8 +257,14 @@ left:(0rem);
   right:0rem;
   transition:.5s ease;
 }
-
-
+}
+/* BANNER */
+.banner{
+  background-image:url("/img/banner_home_v1.jpg");
+  background-size:cover;
+  height:100vh;
+  background-position:center center;
+}
 
 
 
